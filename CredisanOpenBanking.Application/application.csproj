@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CredisanOpenBanking.Domain\Domain.csproj" />
+    <ProjectReference Include="..\CredisanOpenBanking.Service\Service.csproj" />
+    <ProjectReference Include="..\CredisanOpenBanking.CrossCutting\CrossCutting.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+</Project>
